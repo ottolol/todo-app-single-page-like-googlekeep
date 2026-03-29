@@ -8,18 +8,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "register-service-worker": "^1.7.1",
-    "vue": "^3.0.0"
+    "core-js": "^3.49.0",
+    "register-service-worker": "^1.7.2",
+    "vue": "^3.5.31"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.9",
     "@vue/cli-plugin-eslint": "~5.0.9",
     "@vue/cli-plugin-pwa": "~5.0.9",
     "@vue/cli-service": "~5.0.9",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.5.31",
     "babel-eslint": "^10.1.0",
     "eslint": "^10.1.0",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^10.8.0"
+  },
+  "overrides": {
+    "cross-spawn": "^7.0.6",
+    "postcss": "^8.4.31",
+    "serialize-javascript": "^7.0.5",
+    "webpack-dev-server": "^5.2.1"
   }
 }
